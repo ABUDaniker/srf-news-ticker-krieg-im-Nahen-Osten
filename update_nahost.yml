@@ -1,0 +1,32 @@
+name: Nahost Newsticker Scraper
+
+on:
+  schedule:
+    # Läuft alle 4 Stunden (06:00, 10:00, 14:00, 18:00, 22:00 UTC)
+    - cron: '0 6,10,14,18,22 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Python Scraper
+        run: python fetch_nahost.py
+
+      - name: Commit and Push Update
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Nahost Scraper Bot"
+          git add news_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Nahost Newsticker" && git push)

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahost-Konflikt – News Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #1a0a0a, #2d1515, #3d1c1c);
+            --glass-bg: rgba(255, 255, 255, 0.04);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-main: #f8fafc;
+            --text-muted: #b8c0cc;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+            --accent-glow: rgba(249, 115, 22, 0.15);
+            --danger: #ef4444;
+            --success: #4ade80;
+            --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 3rem 1rem 4rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 860px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: var(--card-shadow);
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin: 0;
+            background: linear-gradient(to right, #fde68a, #f97316, #dc2626);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        .source-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+        .source-link:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Loader */
+        .loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 4rem 0;
+        }
+        .spinner {
+            width: 44px; height: 44px;
+            border: 4px solid var(--glass-border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .error-message {
+            display: none;
+            color: var(--danger);
+            background: rgba(239, 68, 68, 0.08);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            text-align: center;
+        }
+
+        /* News cards */
+        .news-section { margin-bottom: 2rem; }
+        .news-section h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin: 0 0 1rem;
+            color: var(--accent);
+        }
+
+        .news-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .news-card {
+            background: rgba(0,0,0,0.25);
+            border: 1px solid var(--glass-border);
+            border-radius: 14px;
+            padding: 1.25rem 1.5rem;
+            transition: transform 0.2s, border-color 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .news-card::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            width: 4px;
+            background: var(--accent);
+            border-radius: 4px 0 0 4px;
+        }
+        .news-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(249, 115, 22, 0.3);
+        }
+        .news-card .card-time {
+            font-size: 0.78rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            letter-spacing: 0.03em;
+        }
+        .news-card .card-title {
+            font-size: 1.08rem;
+            font-weight: 600;
+            line-height: 1.35;
+            color: #fff;
+            margin: 0;
+        }
+        .news-card .card-lead {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            margin-top: 0.4rem;
+            line-height: 1.5;
+        }
+        .news-card a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.82rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+            transition: color 0.2s;
+        }
+        .news-card a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Task sections */
+        .task-section {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid var(--glass-border);
+            margin-top: 1.5rem;
+        }
+
+        .task-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0 0 0.6rem;
+            color: #fff;
+        }
+
+        .task-description {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        .task-hint {
+            font-size: 0.85rem;
+            color: rgba(203, 213, 225, 0.5);
+            margin-top: -0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 130px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1rem;
+            color: var(--text-main);
+            font-family: inherit;
+            font-size: 1rem;
+            resize: vertical;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            box-sizing: border-box;
+        }
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+            background: rgba(255, 255, 255, 0.06);
+        }
+        textarea::placeholder { color: rgba(203, 213, 225, 0.35); }
+        textarea:disabled { opacity: 0.45; cursor: not-allowed; }
+
+        /* Research box (copy allowed) — distinct style */
+        .research-box {
+            border-color: rgba(56, 189, 248, 0.25);
+        }
+        .research-box:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        .research-group { margin-bottom: 1rem; }
+        .research-group label {
+            display: block;
+            font-size: 0.92rem;
+            font-weight: 500;
+            color: var(--text-main);
+            margin-bottom: 0.4rem;
+        }
+        .research-group .emoji-flag { margin-right: 0.3rem; }
+
+        /* Buttons */
+        .btn-primary {
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 0.85rem 1.8rem;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+            width: 100%;
+            max-width: 420px;
+        }
+        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-primary:active { transform: scale(0.98); }
+        .btn-primary:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+            background: #555;
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.08);
+            color: var(--text-main);
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            padding: 0.85rem 1.8rem;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 100%;
+            max-width: 420px;
+        }
+        .btn-secondary:hover { background: rgba(255,255,255,0.14); }
+        .btn-secondary:disabled { opacity: 0.45; cursor: not-allowed; }
+
+        .success-msg {
+            display: none;
+            color: var(--success);
+            background: rgba(74, 222, 128, 0.08);
+            padding: 0.8rem;
+            border-radius: 10px;
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            text-align: center;
+            margin-top: 0.8rem;
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .sentence-counter {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            text-align: right;
+            margin-top: 0.3rem;
+        }
+
+        /* Export section */
+        .export-section {
+            margin-top: 2rem;
+            text-align: center;
+            border: 1px solid var(--accent);
+            background: var(--accent-glow);
+        }
+
+        /* Print / PDF */
+        #result-page {
+            display: none;
+            background: #fff;
+            color: #000;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        #result-page h2 {
+            color: #000;
+            margin-top: 0;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.8rem;
+        }
+        #result-page h3 {
+            margin-top: 1.5rem;
+            color: #222;
+        }
+        .print-block {
+            padding: 1rem 1.2rem;
+            border-radius: 8px;
+            border-left: 4px solid #333;
+            color: #000;
+            font-size: 1.05rem;
+            line-height: 1.65;
+            white-space: pre-wrap;
+            background: #f9f9f9;
+        }
+
+        @media print {
+            body { background: #fff; color: #000; padding: 0; margin: 0; }
+            .container { box-shadow: none; border: none; background: transparent; padding: 0; margin: 0; }
+            header, .loader, .error-message, .news-section, .task-section, .export-section, .hide-print { display: none !important; }
+            #result-page { display: block !important; border: none !important; margin: 0 !important; }
+            #result-page * { color: #000 !important; border-color: #ccc !important; }
+            h1, h2, h3, h4 { -webkit-text-fill-color: #000; background: none; color: #000; }
+        }
+
+        @media (max-width: 640px) {
+            .container { padding: 1.5rem; }
+            h1 { font-size: 1.9rem; }
+            .task-section { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Krieg im Nahen Osten</h1>
+            <div class="subtitle">News-Lernplattform</div>
+            <a class="source-link" href="https://www.srf.ch/news/international/nahost-konflikt" target="_blank">Quelle: SRF News Newsticker</a>
+        </header>
+
+        <!-- Loader -->
+        <div id="loader" class="loader">
+            <div class="spinner"></div>
+            <div>Lade aktuelle Meldungen…</div>
+        </div>
+
+        <div id="error-message" class="error-message">
+            Fehler beim Laden der Inhalte. Bitte versuche es später erneut.
+        </div>
+
+        <!-- Main content (hidden until loaded) -->
+        <div id="main-content" style="display:none;">
+
+            <!-- ═══ NEWS CARDS ═══ -->
+            <div class="news-section">
+                <h2>📰 Aktuelle Meldungen</h2>
+                <div class="news-cards" id="news-cards"></div>
+            </div>
+
+            <!-- ═══ TASK 1: Summary ═══ -->
+            <div class="task-section" id="task1">
+                <h3 class="task-title">Aufgabe 1: Zusammenfassung</h3>
+                <p class="task-description">
+                    <strong>Fassen Sie die drei obigen Meldungen in genau 5 vollständigen Sätzen zusammen.</strong><br>
+                    Gehen Sie dabei auf die wichtigsten Inhalte und Zusammenhänge ein.
+                </p>
+                <p class="task-hint">Kopieren und Einfügen ist deaktiviert – bitte formulieren Sie selbst.</p>
+                <textarea id="summary-input" placeholder="Ihre Zusammenfassung hier eingeben…"
+                    oninput="updateSentenceCount('summary-input','summary-counter', 5, 'btn-save-summary')"
+                    onpaste="return false;" oncopy="return false;" oncut="return false;" autocomplete="off"></textarea>
+                <div class="sentence-counter" id="summary-counter">0 / 5 Sätze</div>
+                <div style="text-align:center; margin-top:1rem;">
+                    <button id="btn-save-summary" class="btn-primary" onclick="saveTask('summary')" disabled>
+                        🔒 Antwort speichern (0/5 Sätze)
+                    </button>
+                </div>
+                <div id="summary-success" class="success-msg">✅ Zusammenfassung gespeichert!</div>
+            </div>
+
+            <!-- ═══ TASK 2: Research ═══ -->
+            <div class="task-section" id="task2" style="border-color: rgba(56,189,248,0.2); background: rgba(56,189,248,0.03);">
+                <h3 class="task-title" style="color: #38bdf8;">Aufgabe 2: Recherche</h3>
+                <p class="task-description">
+                    <strong>Suchen Sie zu den obigen Meldungen verwandte Schlagzeilen aus je 2 Schweizer und 2 deutschsprachigen Zeitungen (Deutschland oder Österreich).</strong><br>
+                    Notieren Sie pro Zeitung mindestens eine Schlagzeile und geben Sie die Quelle an.
+                </p>
+                <p class="task-hint">Kopieren und Einfügen ist hier <strong style="color:#38bdf8;">erlaubt</strong>.</p>
+
+                <div class="research-group">
+                    <label><span class="emoji-flag">🇨🇭</span> Schweizer Zeitung 1 (z.B. Tages-Anzeiger, NZZ, Blick…)</label>
+                    <textarea class="research-box" id="research-ch1" placeholder="Zeitung + Schlagzeile einfügen…"
+                        oninput="checkResearch()" style="min-height:70px;"></textarea>
+                </div>
+                <div class="research-group">
+                    <label><span class="emoji-flag">🇨🇭</span> Schweizer Zeitung 2</label>
+                    <textarea class="research-box" id="research-ch2" placeholder="Zeitung + Schlagzeile einfügen…"
+                        oninput="checkResearch()" style="min-height:70px;"></textarea>
+                </div>
+                <div class="research-group">
+                    <label><span class="emoji-flag">🇩🇪🇦🇹</span> Deutschsprachige Zeitung 1 (z.B. Spiegel, FAZ, Süddeutsche, Der Standard…)</label>
+                    <textarea class="research-box" id="research-de1" placeholder="Zeitung + Schlagzeile einfügen…"
+                        oninput="checkResearch()" style="min-height:70px;"></textarea>
+                </div>
+                <div class="research-group">
+                    <label><span class="emoji-flag">🇩🇪🇦🇹</span> Deutschsprachige Zeitung 2</label>
+                    <textarea class="research-box" id="research-de2" placeholder="Zeitung + Schlagzeile einfügen…"
+                        oninput="checkResearch()" style="min-height:70px;"></textarea>
+                </div>
+
+                <div style="text-align:center; margin-top:1rem;">
+                    <button id="btn-save-research" class="btn-primary" onclick="saveTask('research')" disabled style="background:#0ea5e9;">
+                        🔒 Recherche speichern
+                    </button>
+                </div>
+                <div id="research-success" class="success-msg">✅ Recherche gespeichert!</div>
+            </div>
+
+            <!-- ═══ TASK 3: Personal Feelings ═══ -->
+            <div class="task-section" id="task3">
+                <h3 class="task-title">Aufgabe 3: Persönliche Reflexion</h3>
+                <p class="task-description">
+                    <strong>Schreiben Sie einen kurzen Text (mindestens 10 Sätze) über Ihre Ängste und Gefühle zum Krieg im Nahen Osten.</strong><br>
+                    Was beschäftigt Sie? Was macht Ihnen Sorgen? Was wünschen Sie sich für die Zukunft?
+                </p>
+                <p class="task-hint">Kopieren und Einfügen ist deaktiviert – bitte schreiben Sie persönlich.</p>
+                <textarea id="feelings-input" placeholder="Der Krieg im Nahen Osten macht mir Sorgen, weil…"
+                    oninput="updateSentenceCount('feelings-input','feelings-counter', 10, 'btn-save-feelings')"
+                    onpaste="return false;" oncopy="return false;" oncut="return false;" autocomplete="off"
+                    style="min-height: 180px;"></textarea>
+                <div class="sentence-counter" id="feelings-counter">0 / 10 Sätze</div>
+                <div style="text-align:center; margin-top:1rem;">
+                    <button id="btn-save-feelings" class="btn-primary" onclick="saveTask('feelings')" disabled>
+                        🔒 Antwort speichern (0/10 Sätze)
+                    </button>
+                </div>
+                <div id="feelings-success" class="success-msg">✅ Text gespeichert!</div>
+            </div>
+
+            <!-- ═══ EXPORT ═══ -->
+            <div class="task-section export-section" id="export-section">
+                <h3 class="task-title" style="color: var(--accent);">Abschluss &amp; PDF Export</h3>
+                <p class="task-description" style="margin-bottom: 1.5rem;">
+                    Haben Sie alle Aufgaben bearbeitet? Exportieren Sie eine saubere Zusammenfassung Ihrer Ergebnisse als PDF.
+                </p>
+                <button class="btn-primary" onclick="exportPDF()" style="font-size: 1.15rem; padding: 1rem 2rem;">
+                    🖨️ Als PDF speichern / Drucken
+                </button>
+            </div>
+
+            <!-- ═══ RESULT PAGE (visible only in print) ═══ -->
+            <div id="result-page">
+                <h2>Lern-Ergebnisse: Krieg im Nahen Osten</h2>
+
+                <h3>Aktuelle Meldungen (SRF Newsticker)</h3>
+                <div class="print-block" id="print-news"></div>
+
+                <h3>Aufgabe 1: Zusammenfassung</h3>
+                <div class="print-block" id="print-summary"></div>
+
+                <h3>Aufgabe 2: Recherche</h3>
+                <div class="print-block" id="print-research"></div>
+
+                <h3>Aufgabe 3: Persönliche Reflexion</h3>
+                <div class="print-block" id="print-feelings"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // ── Load news data ──
+        async function loadNews() {
+            try {
+                const resp = await fetch('news_data.json?t=' + Date.now());
+                if (!resp.ok) throw new Error('Daten konnten nicht geladen werden.');
+                const data = await resp.json();
+                renderNews(data);
+            } catch(e) {
+                console.error(e);
+                document.getElementById('loader').style.display = 'none';
+                const err = document.getElementById('error-message');
+                err.style.display = 'block';
+                err.innerHTML = "Fehler: " + e.message + "<br><br>Starten Sie <b>Start_Server.bat</b> und laden Sie die Seite neu.";
+            }
+        }
+
+        function renderNews(data) {
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+
+            const container = document.getElementById('news-cards');
+            container.innerHTML = '';
+
+            data.articles.forEach((a, i) => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <div class="card-time">${a.date || 'Aktuell'} Uhr</div>
+                    <p class="card-title">${a.title}</p>
+                    ${a.lead ? `<p class="card-lead">${a.lead}</p>` : ''}
+                    <a href="${a.url}" target="_blank">Weiterlesen auf SRF ➔</a>
+                `;
+                container.appendChild(card);
+            });
+
+            // Store for PDF
+            window._newsData = data;
+        }
+
+        // ── Sentence counting ──
+        function countSentences(text) {
+            const raw = text.split(/[.!?]+/).filter(s => s.trim().length > 3);
+            return raw.length;
+        }
+
+        function updateSentenceCount(inputId, counterId, required, btnId) {
+            const text = document.getElementById(inputId).value;
+            const count = countSentences(text);
+            const counter = document.getElementById(counterId);
+            const btn = document.getElementById(btnId);
+
+            counter.textContent = `${count} / ${required} Sätze`;
+
+            if (count >= required) {
+                btn.disabled = false;
+                btn.textContent = '🔓 Antwort speichern';
+                btn.style.background = '';
+                counter.style.color = 'var(--success)';
+            } else {
+                btn.disabled = true;
+                btn.textContent = `🔒 Antwort speichern (${count}/${required} Sätze)`;
+                btn.style.background = '#555';
+                counter.style.color = 'var(--text-muted)';
+            }
+        }
+
+        // ── Research check ──
+        function checkResearch() {
+            const ch1 = document.getElementById('research-ch1').value.trim();
+            const ch2 = document.getElementById('research-ch2').value.trim();
+            const de1 = document.getElementById('research-de1').value.trim();
+            const de2 = document.getElementById('research-de2').value.trim();
+            const btn = document.getElementById('btn-save-research');
+
+            if (ch1.length > 5 && ch2.length > 5 && de1.length > 5 && de2.length > 5) {
+                btn.disabled = false;
+                btn.textContent = '🔓 Recherche speichern';
+            } else {
+                btn.disabled = true;
+                btn.textContent = '🔒 Recherche speichern';
+            }
+        }
+
+        // ── Save answers ──
+        function saveTask(task) {
+            const successEl = document.getElementById(task + '-success');
+            successEl.style.display = 'block';
+            setTimeout(() => { successEl.style.display = 'none'; }, 3000);
+        }
+
+        // ── PDF Export ──
+        function exportPDF() {
+            const resultPage = document.getElementById('result-page');
+
+            // News
+            let newsHtml = '';
+            if (window._newsData) {
+                window._newsData.articles.forEach((a, i) => {
+                    newsHtml += `${i+1}. [${a.date || ''}] ${a.title}\n`;
+                    if (a.lead) newsHtml += `   ${a.lead}\n`;
+                });
+            }
+            document.getElementById('print-news').textContent = newsHtml || '(Keine Daten)';
+
+            // Summary
+            document.getElementById('print-summary').textContent =
+                document.getElementById('summary-input').value || '(Nicht ausgefüllt)';
+
+            // Research
+            const ch1 = document.getElementById('research-ch1').value;
+            const ch2 = document.getElementById('research-ch2').value;
+            const de1 = document.getElementById('research-de1').value;
+            const de2 = document.getElementById('research-de2').value;
+            document.getElementById('print-research').textContent =
+                `🇨🇭 Schweizer Zeitung 1:\n${ch1 || '–'}\n\n🇨🇭 Schweizer Zeitung 2:\n${ch2 || '–'}\n\n🇩🇪/🇦🇹 Zeitung 1:\n${de1 || '–'}\n\n🇩🇪/🇦🇹 Zeitung 2:\n${de2 || '–'}`;
+
+            // Feelings
+            document.getElementById('print-feelings').textContent =
+                document.getElementById('feelings-input').value || '(Nicht ausgefüllt)';
+
+            resultPage.style.display = 'block';
+
+            setTimeout(() => { window.print(); }, 200);
+        }
+
+        // Boot
+        window.addEventListener('DOMContentLoaded', loadNews);
+    </script>
+</body>
+</html>
