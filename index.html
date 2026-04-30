@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nahost-Konflikt – News Learning</title>
@@ -359,14 +360,54 @@
             h1 { font-size: 1.9rem; }
             .task-section { padding: 1.5rem; }
         }
+
+        /* Login & Dashboard */
+        .view { display: none; animation: fadeIn 0.4s ease-in-out; }
+        .view.active { display: block; }
+        .login-box { max-width: 420px; margin: 4rem auto; text-align: center; }
+        .login-box input { width: 100%; padding: 1rem; margin: 1.5rem 0; border: 1px solid var(--glass-border); border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.05); color: var(--text-main); font-family: inherit; }
+        .login-box input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+        .dashboard-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .dashboard-table th, .dashboard-table td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--glass-border); color: var(--text-main); }
+        .dashboard-table th { color: var(--accent); font-weight: 600; }
+        .status-badge { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; background: rgba(74, 222, 128, 0.15); color: var(--success); }
+        .logout-btn { background: transparent; color: var(--text-muted); border: 1px solid var(--glass-border); margin-top: 2rem; cursor: pointer; padding: 0.7rem 1.5rem; border-radius: 8px; font-weight: 600; }
     </style>
 </head>
 <body>
 
     <div class="container">
+        <!-- LOGIN VIEW -->
+        <div id="view-login" class="view active">
+            <header>
+                <h1>Krieg im Nahen Osten</h1>
+                <div class="subtitle">News-Lernplattform</div>
+            </header>
+            <div class="login-box" style="background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 16px; padding: 2rem;">
+                <p style="color: var(--text-muted); margin-bottom: 0.5rem;">Bitte loggen Sie sich mit Ihrem Namen ein.</p>
+                <input type="text" id="login-input" placeholder="Vorname Nachname" required>
+                <button class="btn-primary" onclick="handleLogin()">Einloggen</button>
+            </div>
+        </div>
+
+        <!-- TEACHER VIEW -->
+        <div id="view-teacher" class="view">
+            <header><h1>Lehrer-Übersicht: Nahost</h1></header>
+            <div style="background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 16px; padding: 2rem;">
+                <table class="dashboard-table">
+                    <thead><tr><th>Name</th><th>Status / Letzte Aufgabe</th></tr></thead>
+                    <tbody id="student-list"></tbody>
+                </table>
+            </div>
+            <button class="logout-btn" onclick="logout()">Abmelden</button>
+        </div>
+
+        <!-- STUDENT VIEW -->
+        <div id="view-student" class="view">
         <header>
             <h1>Krieg im Nahen Osten</h1>
             <div class="subtitle">News-Lernplattform</div>
+            <div id="student-display" style="font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-top: 0.3rem;"></div>
             <a class="source-link" href="https://www.srf.ch/news/international/nahost-konflikt" target="_blank">Quelle: SRF News Newsticker</a>
         </header>
 
@@ -497,6 +538,8 @@
             </div>
 
         </div>
+        <button class="logout-btn" onclick="logout()">Abmelden</button>
+        </div><!-- end view-student -->
     </div>
 
     <script>
@@ -512,7 +555,7 @@
                 document.getElementById('loader').style.display = 'none';
                 const err = document.getElementById('error-message');
                 err.style.display = 'block';
-                err.innerHTML = "Fehler: " + e.message + "<br><br>Starten Sie <b>Start_Server.bat</b> und laden Sie die Seite neu.";
+                err.textContent = 'Fehler: ' + e.message + ' – Starten Sie Start_Server.bat und laden Sie die Seite neu.';
             }
         }
 
@@ -526,12 +569,30 @@
             data.articles.forEach((a, i) => {
                 const card = document.createElement('div');
                 card.className = 'news-card';
-                card.innerHTML = `
-                    <div class="card-time">${a.date || 'Aktuell'} Uhr</div>
-                    <p class="card-title">${a.title}</p>
-                    ${a.lead ? `<p class="card-lead">${a.lead}</p>` : ''}
-                    <a href="${a.url}" target="_blank">Weiterlesen auf SRF ➔</a>
-                `;
+
+                const time = document.createElement('div');
+                time.className = 'card-time';
+                time.textContent = (a.date || 'Aktuell') + ' Uhr';
+                card.appendChild(time);
+
+                const title = document.createElement('p');
+                title.className = 'card-title';
+                title.textContent = a.title;
+                card.appendChild(title);
+
+                if (a.lead) {
+                    const lead = document.createElement('p');
+                    lead.className = 'card-lead';
+                    lead.textContent = a.lead;
+                    card.appendChild(lead);
+                }
+
+                const link = document.createElement('a');
+                link.href = a.url;
+                link.target = '_blank';
+                link.textContent = 'Weiterlesen auf SRF ➔';
+                card.appendChild(link);
+
                 container.appendChild(card);
             });
 
@@ -625,8 +686,70 @@
             setTimeout(() => { window.print(); }, 200);
         }
 
+        // ── Supabase & Login ──
+        const sUrl = 'https://vshlpndqktpmtnwarxui.supabase.co';
+        const sKey = 'sb_publishable_4RadbUY4N2NV5SeaUrvlPg_spcQoznE';
+        const sClient = window.supabase.createClient(sUrl, sKey);
+        let uName = '';
+        const TEACHER_PASSWORD = 'Lehrer2026!';
+
+        function switchView(id) {
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+
+        async function handleLogin() {
+            const val = document.getElementById('login-input').value.trim();
+            if (!val) return;
+            uName = val;
+            localStorage.setItem('user_nahost', uName);
+            if (val.toLowerCase().includes('lehrer')) {
+                const pw = prompt('Lehrer-Passwort eingeben:');
+                if (pw !== TEACHER_PASSWORD) { alert('Falsches Passwort.'); return; }
+                switchView('view-teacher'); loadDash(); setupRT();
+            } else {
+                document.getElementById('student-display').innerText = 'Angemeldet: ' + uName;
+                switchView('view-student');
+                updateStatus('Eingeloggt');
+                loadNews();
+            }
+        }
+
+        async function updateStatus(t) {
+            if (!uName || uName.toLowerCase().includes('lehrer')) return;
+            await sClient.from('student_progress').upsert({ email: uName, current_task: t, status: 'online' }, { onConflict: 'email' });
+        }
+
+        async function loadDash() {
+            const { data } = await sClient.from('student_progress').select('*');
+            const list = document.getElementById('student-list');
+            list.innerHTML = '';
+            if (data) data.forEach(s => {
+                const tr = document.createElement('tr');
+                const tdName = document.createElement('td');
+                tdName.textContent = s.email;
+                const tdTask = document.createElement('td');
+                const badge = document.createElement('span');
+                badge.className = 'status-badge';
+                badge.textContent = s.current_task;
+                tdTask.appendChild(badge);
+                tr.appendChild(tdName);
+                tr.appendChild(tdTask);
+                list.appendChild(tr);
+            });
+        }
+
+        function setupRT() {
+            sClient.channel('any').on('postgres_changes', { event: '*', schema: 'public', table: 'student_progress' }, () => loadDash()).subscribe();
+        }
+
+        function logout() { localStorage.clear(); location.reload(); }
+
         // Boot
-        window.addEventListener('DOMContentLoaded', loadNews);
+        window.addEventListener('DOMContentLoaded', () => {
+            const saved = localStorage.getItem('user_nahost');
+            if (saved) { document.getElementById('login-input').value = saved; handleLogin(); }
+        });
     </script>
 </body>
 </html>
