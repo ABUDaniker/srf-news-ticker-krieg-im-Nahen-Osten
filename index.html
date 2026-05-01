@@ -395,7 +395,7 @@
             <header><h1>Lehrer-Übersicht: Nahost</h1></header>
             <div style="background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 16px; padding: 2rem;">
                 <table class="dashboard-table">
-                    <thead><tr><th>Name</th><th>Status / Letzte Aufgabe</th></tr></thead>
+                    <thead><tr><th>Name</th><th>Plattform</th><th>Aufgabe</th></tr></thead>
                     <tbody id="student-list"></tbody>
                 </table>
             </div>
@@ -692,6 +692,7 @@
         const sClient = window.supabase.createClient(sUrl, sKey);
         let uName = '';
         const TEACHER_PASSWORD = 'Lehrer2026!';
+        const PLATFORM_TAG = 'Nahost';
 
         function switchView(id) {
             document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
@@ -717,7 +718,7 @@
 
         async function updateStatus(t) {
             if (!uName || uName.toLowerCase().includes('lehrer')) return;
-            await sClient.from('student_progress').upsert({ email: uName, current_task: t, status: 'online' }, { onConflict: 'email' });
+            await sClient.from('student_progress').upsert({ email: uName, current_task: '[' + PLATFORM_TAG + '] ' + t, status: 'online' }, { onConflict: 'email' });
         }
 
         async function loadDash() {
@@ -728,12 +729,22 @@
                 const tr = document.createElement('tr');
                 const tdName = document.createElement('td');
                 tdName.textContent = s.email;
+                const tdPlatform = document.createElement('td');
                 const tdTask = document.createElement('td');
-                const badge = document.createElement('span');
-                badge.className = 'status-badge';
-                badge.textContent = s.current_task;
-                tdTask.appendChild(badge);
+                const raw = s.current_task || '';
+                const match = raw.match(/^\[(.+?)\]\s*(.*)$/);
+                const platBadge = document.createElement('span');
+                platBadge.className = 'status-badge';
+                platBadge.style.background = 'rgba(239,68,68,0.15)';
+                platBadge.style.color = '#ef4444';
+                platBadge.textContent = match ? match[1] : '–';
+                tdPlatform.appendChild(platBadge);
+                const taskBadge = document.createElement('span');
+                taskBadge.className = 'status-badge';
+                taskBadge.textContent = match ? match[2] : raw;
+                tdTask.appendChild(taskBadge);
                 tr.appendChild(tdName);
+                tr.appendChild(tdPlatform);
                 tr.appendChild(tdTask);
                 list.appendChild(tr);
             });
