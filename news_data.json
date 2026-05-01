@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Beirut: US-Botschaft ruft Israel und Libanon zu Gesprächen auf",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:35"
+        },
+        {
+            "title": "Israel: Zwei Flotilla-Aktivisten werden nach Israel gebracht",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:27"
+        },
+        {
             "title": "Frist für Krieg im Iran läuft aus – Teheran wappnet sich",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:42"
-        },
-        {
-            "title": "Wirtschaftskrise im Iran verschärft sich weiter",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:44"
-        },
-        {
-            "title": "Tankrabatt in Deutschland gilt ab heute",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "4:20"
         }
     ]
 }
