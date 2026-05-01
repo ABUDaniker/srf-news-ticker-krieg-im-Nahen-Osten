@@ -713,6 +713,13 @@
                 switchView('view-student');
                 updateStatus('Eingeloggt');
                 loadNews();
+                // Track textarea progress
+                document.querySelectorAll('#view-student textarea').forEach(ta => {
+                    ta.addEventListener('input', () => {
+                        const label = ta.id ? ta.id.replace(/-/g, ' ') : 'Aufgabe';
+                        updateStatus(label + ' bearbeitet');
+                    });
+                });
             }
         }
 
@@ -754,7 +761,11 @@
             sClient.channel('any').on('postgres_changes', { event: '*', schema: 'public', table: 'student_progress' }, () => loadDash()).subscribe();
         }
 
-        function logout() { localStorage.clear(); location.reload(); }
+        async function logout() {
+            await updateStatus('Ausgeloggt');
+            localStorage.clear();
+            location.reload();
+        }
 
         // Boot
         window.addEventListener('DOMContentLoaded', () => {
