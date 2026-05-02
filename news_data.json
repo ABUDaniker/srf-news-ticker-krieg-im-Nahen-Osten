@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "7 Tote nach israelischen Luftschlägen im Libanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:43"
+        },
+        {
+            "title": "Iran hält erneuten Ausbruch des Krieges mit USA für möglich",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:46"
+        },
+        {
             "title": "Der Iran schlägt Öffnung der Strasse von Hormus vor",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "14:15"
-        },
-        {
-            "title": "VAE: keine Einschränkungen mehr im Flugverkehr",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:04"
-        },
-        {
-            "title": "Trump: USA handeln bei Blockade iranischer Häfen «wie Piraten»",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:52"
         }
     ]
 }
