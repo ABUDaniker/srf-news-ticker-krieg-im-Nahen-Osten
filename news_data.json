@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Haftverlängerung in Israel für zwei Gaza-Aktivisten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:32"
+        },
+        {
+            "title": "Israels Regierung bestellt neue Kampfjets in den USA",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:13"
+        },
+        {
             "title": "Israels Armee kündigt Einsätze im Südlibanon an",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:25"
-        },
-        {
-            "title": "Trump: Werden weit mehr als 5000 Soldaten abziehen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:01"
-        },
-        {
-            "title": "Trump kündigt Überprüfung eines Iran-Plans an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "1:57"
         }
     ]
 }
