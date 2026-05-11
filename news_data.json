@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "USA erhöhen Druck mit weiteren Sanktionen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 23:52"
+        },
+        {
+            "title": "US-Militärflugzeuge blockieren Betrieb auf Flughafen in Tel Aviv",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:42"
+        },
+        {
             "title": "CBS: Trump will Steuern auf Benzin in den USA senken",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "18:53"
-        },
-        {
-            "title": "Trump: Waffenruhe hängt am seidenen Faden",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "18:32"
-        },
-        {
-            "title": "Libanon: Israel kontrolliert 68 Orte im Südlibanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "18:17"
+            "date": "Gestern, 18:53"
         }
     ]
 }
