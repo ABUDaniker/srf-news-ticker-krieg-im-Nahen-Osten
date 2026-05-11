@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Netanjahu: Israel soll unabhängig von US-Finanzhilfen werden",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:23"
+        },
+        {
             "title": "Iran: US-Forderungen sind unvernünftig und einseitig",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:57"
-        },
-        {
-            "title": "Iran richtet Mann hin – mutmassliche Spionage für USA und Israel",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:55"
         }
     ]
 }
