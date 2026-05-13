@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Nächste Gesprächsrunde zwischen Israel und Libanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:51"
+        },
+        {
+            "title": "Swiss plant Wiederaufnahme der Flüge nach Tel Aviv",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:39"
+        },
+        {
             "title": "Bekannte Anwältin Sotudeh im Iran auf Kaution frei",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:54"
-        },
-        {
-            "title": "Acht Tote bei israelischen Luftangriffen nahe Beirut",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:13"
-        },
-        {
-            "title": "IEA erwartet Rückgang der Ölnachfrage – Reserven sinken",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:41"
         }
     ]
 }
