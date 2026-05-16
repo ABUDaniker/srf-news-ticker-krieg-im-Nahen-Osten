@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
-            "title": "Israel: Hamas-Kommandant bei israelischem Angriff getötet",
+            "title": "Trump über den Iran: «Ich habe nichts unterschätzt»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:28"
+        },
+        {
+            "title": "Iran plant Regelung für Schiffsverkehr in der Strasse von Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:42"
+        },
+        {
+            "title": "Hamas-Militärchef und Sinwar-Nachfolger getötet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "12:08"
-        },
-        {
-            "title": "Irak: 10 Millionen Barrel Öl über Strasse von Hormus exportiert",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:31"
-        },
-        {
-            "title": "Israel bestätigt Angriffe auf Hisbollah-Ziele im Südlibanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:54"
         }
     ]
 }
