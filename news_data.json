@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Libanon: Mehrere Menschen bei Angriff getötet",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "1:17"
+        },
+        {
             "title": "Israel nimmt führenden Hamas-Kommandanten ins Visier",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 20:26"
-        },
-        {
-            "title": "Israel meldet über 220 getötete Hisbollah-Kämpfer im Libanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:45"
         }
     ]
 }
