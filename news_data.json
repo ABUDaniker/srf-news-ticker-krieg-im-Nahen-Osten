@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran: 35 Schiffe passieren Strasse von Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "12:31"
+        },
+        {
+            "title": "Sechs Tote bei israelischen Angriffen im Südlibanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "12:05"
+        },
+        {
             "title": "Pakistanischer Innenminister trifft Araghchi in Teheran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:37"
-        },
-        {
-            "title": "Wegen Iran-Krieg: Ölpreis legt um zweieinhalb Prozent zu",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:37"
-        },
-        {
-            "title": "Libanon: Israel greift weiter Gesundheitseinrichtungen an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:53"
         }
     ]
 }
