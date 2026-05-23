@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Israels Armee meldet Angriffe auf Hisbollah-Ziele im Libanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:15"
+        },
+        {
             "title": "Gaza-Aktivisten berichten von «Misshandlungen und Übergriffen»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 20:58"
-        },
-        {
-            "title": "Aufruf an Israel: Keine Siedlungs-Ausweitung im Westjordanland",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 18:42"
         }
     ]
 }
