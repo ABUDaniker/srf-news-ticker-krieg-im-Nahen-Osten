@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Mögliche Vereinbarung zwischen USA und Iran sieht Kriegsende vor",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "8:53"
+        },
+        {
             "title": "Trump: Abkommen mit dem Iran «weitgehend» ausgehandelt",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 19:28"
-        },
-        {
-            "title": "Pakistan: Ermutigende Fortschritte bei Iran-Gesprächen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 18:18"
         }
     ]
 }
