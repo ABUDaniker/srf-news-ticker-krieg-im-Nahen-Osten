@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Hisbollah gedenkt Israels Abzug inmitten anhaltender Angriffe",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:30"
+        },
+        {
+            "title": "Medien: Irans Präsident ordnet Ende der Internet-Sperre an",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:17"
+        },
+        {
             "title": "Gesundheitsbehörden: Kind bei Angriff im Süden Gazas getötet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "16:27"
-        },
-        {
-            "title": "Trump fordert Beitritt weiterer Staaten zu Abraham-Abkommen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:06"
-        },
-        {
-            "title": "iranische Delegation reist zu Gesprächen über USA-Deal nach Katar",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:03"
         }
     ]
 }
