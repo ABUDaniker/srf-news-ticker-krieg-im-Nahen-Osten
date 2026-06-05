@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Oman setzt Ölverladung in Mina al Fahal nach Explosion aus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "9:24"
+        },
+        {
+            "title": "Ein toter israelischer Soldat bei Hisbollah-Angriff",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "4:06"
+        },
+        {
             "title": "Behörden: Acht Tote bei israelischen Luftangriffen im Libanon",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 21:56"
-        },
-        {
-            "title": "Kallas: Tod von UNO-Soldat zeigt fragile Waffenruhe im Libanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:44"
-        },
-        {
-            "title": "Iran blockiert Atom-Inspektorinnen und -Inspektoren",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:11"
         }
     ]
 }
