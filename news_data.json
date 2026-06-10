@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Brand auf Tanker: USA melden Angriff auf Schiff mit iranischem Öl",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:43"
+        },
+        {
+            "title": "Trump liefert vorerst keine Belege für Öltransporte durch Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:16"
+        },
+        {
             "title": "Irans Peseschkian: Wir werden uns jeder Drohung entgegenstellen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "19:08"
-        },
-        {
-            "title": "Trump: Der Iran wird heute noch angegriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "18:02"
-        },
-        {
-            "title": "IAEA-Gremium: Iran soll angereichertes Uran prüfen lassen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "17:51"
         }
     ]
 }
