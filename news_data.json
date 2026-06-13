@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Elektronische Unterzeichnung in nächsten 24 Stunden möglich",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:30"
+        },
+        {
+            "title": "Iran plant Beisetzung von Chamenei am 9. Juli",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:02"
+        },
+        {
             "title": "Das ist über den Stand der Verhandlungen bekannt",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:17"
-        },
-        {
-            "title": "Israel ordnet Evakuierung von 20 Orten im Südlibanon an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:00"
-        },
-        {
-            "title": "US-Militär: Iranische Drohnenangriffe bei Hormus abgewehrt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "4:24"
         }
     ]
 }
