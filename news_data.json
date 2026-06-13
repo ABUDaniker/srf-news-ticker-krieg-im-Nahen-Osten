@@ -3,7 +3,14 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
-            "title": "Elektronische Unterzeichnung in nächsten 24 Stunden möglich",
+            "title": "Iran: Unterzeichnung der Absichtserklärung nicht am Sonntag",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:54"
+        },
+        {
+            "title": "Pakistan: Unterzeichnung in den nächsten 24 Stunden möglich",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:02"
-        },
-        {
-            "title": "Das ist über den Stand der Verhandlungen bekannt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:17"
         }
     ]
 }
