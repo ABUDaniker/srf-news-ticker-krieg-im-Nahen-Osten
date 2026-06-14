@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Trump wütend auf Israel wegen Libanon-Angriff",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:47"
+        },
+        {
+            "title": "Behörde: Mindestens sechs Tote bei israelischen Angriffen in Gaza",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:56"
+        },
+        {
             "title": "Trump: Angriff gefährdet möglichen Frieden",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:12"
-        },
-        {
-            "title": "Iran stellt geplantes Abkommen mit USA infrage",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:04"
-        },
-        {
-            "title": "Israel greift nach Hisbollah-Attacke Vororte Beiruts an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:52"
         }
     ]
 }
