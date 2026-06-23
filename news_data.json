@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Rubio wirbt in Golfregion für Abkommen mit Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "19:50"
+        },
+        {
+            "title": "Vertreter aus dem Libanon und Israel verhandeln erneut in USA",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:44"
+        },
+        {
             "title": "Strasse von Hormus: UNO startet Evakuierungsmission für Seeleute",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "18:02"
-        },
-        {
-            "title": "Iran: Chameneis Beisetzung am 9. Juli in Maschhad",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "17:35"
-        },
-        {
-            "title": "UNO: Mehr als 11&#039;000 Gebäude im südlichen Libanon zerstört",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "17:04"
         }
     ]
 }
