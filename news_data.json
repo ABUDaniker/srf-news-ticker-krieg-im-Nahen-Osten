@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Libanesische Armee will «inneren Frieden verteidigen»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "19:55"
+        },
+        {
+            "title": "Iran: Inflation nimmt stark zu",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:36"
+        },
+        {
             "title": "Hisbollah-Chef: Abkommen von Libanon mit Israel eine «Schande»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "16:21"
-        },
-        {
-            "title": "Israels Militär bestätigt Drohnenangriff im Südlibanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:27"
-        },
-        {
-            "title": "Israels Drohne soll Gebiet im Südlibanon angegriffen haben",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:49"
         }
     ]
 }
