@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Israel zerstört Hisbollah-Tunnel im Südlibanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 23:38"
+        },
+        {
+            "title": "Nach israelischen Angriffen: Verletzte im Südlibanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:15"
+        },
+        {
             "title": "Iranischer Klerus fordert Stopp der Gespräche mit den USA",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:54"
-        },
-        {
-            "title": "Katar: Mann stirbt nach «Militäroperationen» durch Splitter",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "19:13"
-        },
-        {
-            "title": "Iran und USA: Trotz Rahmenabkommen von Entspannung keine Spur",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "17:39"
+            "date": "Gestern, 20:54"
         }
     ]
 }
