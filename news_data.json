@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Nach Hormus-Blockade: 62 Volkswirtschaften laut UNO gefährdet",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:41"
+        },
+        {
+            "title": "US-Sondergesandte Witkoff und Kushner in Katar eingetroffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:01"
+        },
+        {
             "title": "Israels Botschafter: Europa muss libanesischer Regierung helfen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:09"
-        },
-        {
-            "title": "Strasse von Hormus: Iran weist internationale Minenräumung zurück",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 22:24"
-        },
-        {
-            "title": "Frankreich und Oman wollen bei Minenräumung zusammenarbeiten",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 20:40"
         }
     ]
 }
