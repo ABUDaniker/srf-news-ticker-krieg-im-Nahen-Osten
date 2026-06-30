@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Netanjahu befiehlt Zerstörung von Hisbollah-Infrastruktur",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:45"
+        },
+        {
             "title": "Spionage für Iran: US-Bürger in Israel festgenommen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:17"
-        },
-        {
-            "title": "Iran kündigt Gespräche mit Katar über eingefrorene Gelder an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:00"
         }
     ]
 }
