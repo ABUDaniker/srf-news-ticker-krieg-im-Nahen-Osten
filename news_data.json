@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Israels Botschafter: Europa muss libanesischer Regierung helfen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:09"
+        },
+        {
             "title": "Strasse von Hormus: Iran weist internationale Minenräumung zurück",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 20:40"
-        },
-        {
-            "title": "Palästinenser: Fünf Tote in Gaza bei israelischen Luftangriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 20:22"
         }
     ]
 }
