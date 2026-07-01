@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Unklarheit über Inhalt der indirekten Iran-USA-Gespräche",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:36"
+        },
+        {
             "title": "Trump lobt Fortschritte bei Gesprächen mit Iran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:20"
-        },
-        {
-            "title": "Irans Aussenminister kontert US-Minister nach WM-Aus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:28"
         }
     ]
 }
