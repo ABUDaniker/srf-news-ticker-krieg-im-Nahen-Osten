@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Schiff vor Jemens Küste meldet bewaffneten Angriff",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:06"
+        },
+        {
             "title": "Totengebet für Chamenei in Teheran abgehalten",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 20:28"
-        },
-        {
-            "title": "Iran: Öffentliche Trauerfeier für Ajatollah Ali Chamenei beginnt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 6:05"
         }
     ]
 }
