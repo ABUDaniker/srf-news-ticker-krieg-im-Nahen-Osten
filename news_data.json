@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Jordanien meldet Raketenbeschuss aus dem Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:35"
+        },
+        {
+            "title": "Ak-Takeh-Chan-Brücke getoffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "12:56"
+        },
+        {
             "title": "Trauer um Chamenei auch im Irak",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:18"
-        },
-        {
-            "title": "US-Angriffe legen wichtige Bahnstrecke im Iran lahm",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:21"
-        },
-        {
-            "title": "Ölpreise ziehen etwas an – Iran-Krieg bleibt im Fokus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:45"
         }
     ]
 }
