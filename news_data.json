@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "USA verhängen Sanktionen gegen iranische Finanznetzwerke",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:10"
+        },
+        {
             "title": "Trump erklärt Waffenruhe für beendet und stimmt Gesprächen zu",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "16:53"
-        },
-        {
-            "title": "Goldpreis sinkt leicht auf 4107.22 US-Dollar je Feinunze",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:35"
         }
     ]
 }
