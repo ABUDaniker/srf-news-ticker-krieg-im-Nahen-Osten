@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Strasse von Hormus wieder komplett zu",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:37"
+        },
+        {
             "title": "Insider: USA, Iran, Katar und Pakistan planen Telefonkonferenz",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "15:33"
+            "date": "Gestern, 15:33"
         },
         {
             "title": "Nach der Bestattung von Chamenei schwört Irans neue Führung Rache",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "13:23"
-        },
-        {
-            "title": "Hinweise auf Wiederaufbau iranischer Militärforschungsanlage",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:53"
+            "date": "Gestern, 13:23"
         }
     ]
 }
