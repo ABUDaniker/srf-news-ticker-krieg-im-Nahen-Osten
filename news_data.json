@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iranische Medien: USA greifen Ziele im Iran an",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:37"
+        },
+        {
             "title": "Trump: Strasse von Hormus für Handelsschifffahrt offen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "15:19"
-        },
-        {
-            "title": "US-Militär widerspricht Iran: Strasse von Hormus ist offen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:47"
         }
     ]
 }
