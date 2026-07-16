@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Medien: USA fliegen Angriffe auf Brücken",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:52"
+        },
+        {
+            "title": "Kuwait meldet Abschuss von 32 feindlichen Drohnen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:21"
+        },
+        {
             "title": "USA starten neue Angriffswelle gegen Iran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:38"
-        },
-        {
-            "title": "USA: Iran will weiter Abkommen mit den USA",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "20:32"
-        },
-        {
-            "title": "Huthi-Anführer droht mit Angriffen in Riad",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "19:48"
+            "date": "Gestern, 20:38"
         }
     ]
 }
