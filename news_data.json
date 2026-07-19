@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Nach Tod zweier Soldaten wieder US-Angriffe gegen Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "8:37"
+        },
+        {
+            "title": "UAE rufen zu Rückkehr an Verhandlungstisch auf",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "1:42"
+        },
+        {
             "title": "Jordanien: Zwei US-Soldaten bei iranischen Angriffen getötet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 19:26"
-        },
-        {
-            "title": "Chamenei droht USA mit «unvergesslichen Lektionen»",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:25"
-        },
-        {
-            "title": "Iran erklärt Rahmenabkommen mit den USA für ausgesetzt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 17:29"
         }
     ]
 }
