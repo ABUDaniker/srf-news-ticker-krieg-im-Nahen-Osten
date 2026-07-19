@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Medien: USA verlegen weitere Kampfjets in den Nahen Osten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:15"
+        },
+        {
             "title": "IAEA: Prüfen Berichte über Angriff auf AKW-Baustelle im Iran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "15:22"
-        },
-        {
-            "title": "Brandanschlag auf Moschee im Westjordanland",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:52"
         }
     ]
 }
