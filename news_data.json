@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Hamas ernennt Chalil al-Haja zum neuen Anführer",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:28"
+        },
+        {
+            "title": "Palästinensische Medien melden zwei Tote nach Siedlerangriff",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "12:09"
+        },
+        {
             "title": "USA und Iran signalisieren Verhandlungsbereitschaft",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:21"
-        },
-        {
-            "title": "Iran: US-Angriffe treffen iranische Stadt Buschehr",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:14"
-        },
-        {
-            "title": "Schiff nahe der Strasse von Hormus von Projektil getroffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:21"
         }
     ]
 }
