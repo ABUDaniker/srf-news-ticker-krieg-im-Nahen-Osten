@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "EU bezeichnet Angriffe im Roten Meer als «inakzeptabel»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:35"
+        },
+        {
+            "title": "Oman drängt auf neue Gespräche nach Huthi-Angriff auf Öltanker",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:37"
+        },
+        {
             "title": "Iran: US-Militärbasen in Kuwait mit Drohnen angegriffen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "8:15"
-        },
-        {
-            "title": "USA erklären jüngste Angriffswelle im Iran für beendet",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "5:14"
-        },
-        {
-            "title": "US-Repräsentantenhaus stimmt für mehr Militärausgaben",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "1:47"
         }
     ]
 }
