@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "US-Zentralkommando: Seeblockade bleibt weiterhin in Kraft",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:46"
+        },
+        {
+            "title": "Kiew: Russland stellt Iran Satellitenbeobachtungen zur Verfügung",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 21:35"
+        },
+        {
             "title": "Iran ruft zu Dialog im Jemen-Konflikt auf",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "15:04"
-        },
-        {
-            "title": "Schifffahrtsbehörde: Zwischenfall mit Tanker und Streitkräften",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:47"
-        },
-        {
-            "title": "Huthi: Gegenangriff in Saudi-Arabien ausgeführt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "6:00"
+            "date": "Gestern, 15:04"
         }
     ]
 }
