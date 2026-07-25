@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Schifffahrtsbehörde: Zwischenfall mit Tanker und Streitkräften",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:47"
+        },
+        {
             "title": "Huthi: Gegenangriff in Saudi-Arabien ausgeführt",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "2:03"
-        },
-        {
-            "title": "Nach Angriff auf Schiff: Ziele im Jemen angegriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "1:37"
         }
     ]
 }
