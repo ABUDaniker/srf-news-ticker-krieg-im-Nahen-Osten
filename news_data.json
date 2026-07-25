@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran ruft zu Dialog im Jemen-Konflikt auf",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:04"
+        },
+        {
             "title": "Schifffahrtsbehörde: Zwischenfall mit Tanker und Streitkräften",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "6:00"
-        },
-        {
-            "title": "US-Militär: Tanker auf dem Weg zu iranischem Hafen angegriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "2:03"
         }
     ]
 }
