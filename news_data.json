@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Palästinenser melden Brandanschläge auf zwei Moscheen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:48"
+        },
+        {
+            "title": "Iran droht USA mit Ausweitung des Konflikts",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:05"
+        },
+        {
             "title": "Irans Revolutionsgarden stoppen Schiffe in der Strasse von Hormus",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:57"
-        },
-        {
-            "title": "Iran: Produktive Gespräche mit Oman über Strasse von Hormus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:54"
-        },
-        {
-            "title": "US-Zentralkommando: Seeblockade bleibt weiterhin in Kraft",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "0:46"
         }
     ]
 }
