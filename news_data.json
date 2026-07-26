@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Stabilisierungstruppe soll laut Medien Zugang zu Gaza erhalten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:43"
+        },
+        {
+            "title": "Netanjahu sieht Irans Atomprogramm um Jahre zurückgeworfen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:55"
+        },
+        {
             "title": "Israel tötet hochrangiger Hamas-Offizier und Mitarbeiter in Gaza",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "15:20"
-        },
-        {
-            "title": "Iranische Agentur meldet Explosion von Öltanker wegen Seemine",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:28"
-        },
-        {
-            "title": "Palästinenser melden Brandanschläge auf zwei Moscheen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:48"
         }
     ]
 }
