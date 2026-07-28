@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran macht Oman einen Vorschlag für die Strasse von Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:41"
+        },
+        {
             "title": "Netanjahu trifft Trump im Weissen Haus",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:25"
-        },
-        {
-            "title": "Oman schlägt freiwillige Gebühren für Strasse von Hormus vor",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:25"
         }
     ]
 }
