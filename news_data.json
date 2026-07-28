@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Jordanien zerstört Drohne im östlichen Wüstengebiet",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "9:27"
+        },
+        {
+            "title": "Nur ein Drittel der Amerikaner unterstützt Militäreinsatz im Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "7:47"
+        },
+        {
             "title": "Medien: US-Munitionsreserven schrumpfen – Trump dementiert",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 21:35"
-        },
-        {
-            "title": "UNO: Mögliche Kriegsverbrechen Israels im Libanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:25"
-        },
-        {
-            "title": "Trump: USA und Iran in «sehr tiefgreifenden Gesprächen»",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 17:49"
         }
     ]
 }
