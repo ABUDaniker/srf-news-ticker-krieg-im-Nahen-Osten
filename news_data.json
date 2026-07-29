@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Proiranische Milizen im Irak drohen mit Vergeltung",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:01"
+        },
+        {
+            "title": "Explosion an LNG-Terminal in Ägypten – Wohl Drohnenangriff",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:52"
+        },
+        {
             "title": "USA verhängen neue Iran-Sanktionen – Tanker im Visier",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:19"
-        },
-        {
-            "title": "Erneut Drohnenangriffe im nordirakischen Erbil gemeldet",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:30"
-        },
-        {
-            "title": "Bagdad verurteilt  Luftangriffe auf irakisches Territorium",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:18"
         }
     ]
 }
