@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Huthi-Miliz plant Gebühren für Schiffe im Roten Meer",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:45"
+        },
+        {
+            "title": "Iran weist Omans Plan für die Strasse von Hormus zurück",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "12:12"
+        },
+        {
             "title": "Irak beruft Notfallsitzung nach Luftangriffen ein",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:03"
-        },
-        {
-            "title": "Iran: Schiffe im Persischen Golf angegriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:17"
-        },
-        {
-            "title": "USA und Saudi-Arabien greifen Irak an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "2:46"
         }
     ]
 }
