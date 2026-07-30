@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Saudi-Arabien kündigt Bündnis zum Schutz der Schifffahrt an",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:27"
+        },
+        {
+            "title": "Israel dementiert Fortschritte bei Gesprächen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:07"
+        },
+        {
             "title": "Iran warnt Bulgarien und Zypern wegen US-Militärpräsenz",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:12"
-        },
-        {
-            "title": "Berichte: Fortschritte bei Gesprächen über Hamas-Entwaffnung",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:56"
-        },
-        {
-            "title": "Iran: Drei Soldaten der Revolutionsgarden bei US-Angriff getötet",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:14"
         }
     ]
 }
