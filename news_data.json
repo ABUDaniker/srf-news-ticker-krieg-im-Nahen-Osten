@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "SRF-Korrespondenten: «Vieles bleibt unklar»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:23"
+        },
+        {
+            "title": "Iran stoppt zwei Tanker im Persischen Golf",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:48"
+        },
+        {
             "title": "Hamas fordert Israels Zustimmung zu Entwaffnungsabkommen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:14"
-        },
-        {
-            "title": "Israel zerstört Hisbollah-Tunnel bei Burg Beaufort",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:47"
-        },
-        {
-            "title": "Iran greift US-Militärbasis in Kuwait mit Drohnen an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:55"
         }
     ]
 }
