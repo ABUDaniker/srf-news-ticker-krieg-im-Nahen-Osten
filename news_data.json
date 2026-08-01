@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Huthi-Miliz: Kurswechsel saudischer Tanker erzwungen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:04"
+        },
+        {
             "title": "Zwei Vorfälle mit Tankern vor Omans Küste",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "3:03"
-        },
-        {
-            "title": "Pakistan begrüsst Vereinbarung und bekräftigt Unterstützung",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 22:02"
         }
     ]
 }
