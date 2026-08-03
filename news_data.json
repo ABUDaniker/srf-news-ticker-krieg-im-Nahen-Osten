@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Sechs saudische Tanker ändern Kurs – weg vom Roten Meer",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:53"
+        },
+        {
             "title": "Iran lehnt Verhandlungen mit den USA ab und spricht mit Oman",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "8:22"
-        },
-        {
-            "title": "Zwei Tanker können Meerenge Bab al-Mandab passieren",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:47"
         }
     ]
 }
