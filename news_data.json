@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Vermittlerstaaten verurteilen Israels Angriffe im Gazastreifen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:43"
+        },
+        {
             "title": "Trump: Iran droht ohne Einigung die «Enthauptung»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:56"
+            "date": "Gestern, 20:56"
         },
         {
             "title": "Gaza-Abzug Israels erst nach Hamas-Entwaffnung",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:48"
-        },
-        {
-            "title": "Trump: Gespräche mit dem Iran «laufen gerade»",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "20:44"
+            "date": "Gestern, 20:48"
         }
     ]
 }
