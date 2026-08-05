@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "UNO schlägt Alarm wegen steigender Hinrichtungszahlen im Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:11"
+        },
+        {
+            "title": "Netanjahu: Israel hat Plan zur Hamas-Entwaffnung nicht zugestimmt",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:51"
+        },
+        {
             "title": "Huthi-Miliz greift saudiarabischen Tanker mit Rakete an",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:56"
-        },
-        {
-            "title": "Iran macht Abkommen über Hormus von US-Verhalten abhängig",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:43"
-        },
-        {
-            "title": "Schiffsverkehr an den Meerengen ist stabil",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:42"
         }
     ]
 }
