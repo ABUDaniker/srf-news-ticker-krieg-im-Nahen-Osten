@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Erneut massiver Rückgang der Schiffspassagen durch die Meerengen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "8:57"
+        },
+        {
             "title": "Trump erwartet baldiges Ende des Iran-Konflikts",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "1:23"
-        },
-        {
-            "title": "USA sehen Annäherung bei Gesprächen zwischen Libanon und Israel",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 20:39"
         }
     ]
 }
