@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Netanjahu: Kein Gaza-Rückzug ohne komplette Entwaffnung der Hamas",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:44"
+        },
+        {
+            "title": "Iranische Medien: Präsident soll obersten Führer getroffen haben",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:31"
+        },
+        {
             "title": "Iran verweigert direkte Gespräche mit den USA",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:57"
-        },
-        {
-            "title": "Huthi-Rebellen greifen Raffinerie in Saudi-Arabien an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:19"
-        },
-        {
-            "title": "Iranischer Präsident macht USA für Preisanstieg verantwortlich",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:01"
         }
     ]
 }
