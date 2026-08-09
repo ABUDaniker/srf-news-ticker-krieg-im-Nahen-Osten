@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iranischer Präsident macht USA für Preisanstieg verantwortlich",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "9:01"
+        },
+        {
             "title": "Oman: Konstruktive Gespräche zu Strasse von Hormus",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 14:12"
-        },
-        {
-            "title": "Strasse von Hormus: Raketenangriff auf saudischen Tanker",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 13:59"
         }
     ]
 }
