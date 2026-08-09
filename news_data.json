@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran verweigert direkte Gespräche mit den USA",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:57"
+        },
+        {
+            "title": "Huthi-Rebellen greifen Raffinerie in Saudi-Arabien an",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:19"
+        },
+        {
             "title": "Iranischer Präsident macht USA für Preisanstieg verantwortlich",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:01"
-        },
-        {
-            "title": "Oman: Konstruktive Gespräche zu Strasse von Hormus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 18:16"
-        },
-        {
-            "title": "Iran stehe kurz vor Einigung mit Oman über Hormus-Route",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 14:12"
         }
     ]
 }
