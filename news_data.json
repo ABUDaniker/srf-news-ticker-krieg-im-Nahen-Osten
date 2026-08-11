@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Israel verlängert zwei EU-Missionen in Palästinensergebieten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:12"
+        },
+        {
             "title": "Pakistan: USA und Iran «einer Art von Vereinbarung nahe»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:37"
-        },
-        {
-            "title": "USA kontrollieren laut Trump die Strasse von Hormus vollständig",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:55"
         }
     ]
 }
