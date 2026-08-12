@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Trump: Strasse von Hormus gehört uns  – neue Warnung an Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "6:39"
+        },
+        {
             "title": "USA setzen Frachtschiff wegen Iran Blockade ausser Gefecht",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 17:12"
-        },
-        {
-            "title": "Pakistan: USA und Iran «einer Art von Vereinbarung nahe»",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 14:51"
         }
     ]
 }
