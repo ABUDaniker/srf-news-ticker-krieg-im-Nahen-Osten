@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Bei Oman auf Grund gelaufen: Öl aus Tanker erreicht Festland",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:53"
+        },
+        {
             "title": "Medien: Bedrohung durch Rakete Grund für Trumps Täuschung",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:30"
-        },
-        {
-            "title": "Siedler bedrängen tagelang Palästinenser – Militäreinsatz Israels",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:11"
         }
     ]
 }
