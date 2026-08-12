@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Medien: Bedrohung durch Rakete Grund für Trumps Täuschung",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:32"
+        },
+        {
+            "title": "Iran-USA-Waffenruhe soll verlängert werden",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:30"
+        },
+        {
             "title": "Siedler bedrängen tagelang Palästinenser – Militäreinsatz Israels",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "12:11"
-        },
-        {
-            "title": "Nahost-Sorgen stützen Ölpreis",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:39"
-        },
-        {
-            "title": "Trump: Strasse von Hormus gehört uns – neue Warnung an Iran",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "6:39"
         }
     ]
 }
