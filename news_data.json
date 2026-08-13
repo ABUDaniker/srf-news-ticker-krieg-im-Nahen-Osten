@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Emiratische Öltanker in Strasse von Hormus angegriffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:28"
+        },
+        {
+            "title": "Gericht weist Klage der US-Regierung gegen Harvard ab",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 21:45"
+        },
+        {
             "title": "Huthi melden Angriff auf Raffinerie in Saudi-Arabien",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:48"
-        },
-        {
-            "title": "Nach Klagen über Missstände: US-Flugzeugträger wird abgelöst",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "20:45"
-        },
-        {
-            "title": "Zwei Tote bei israelischen Angriffen im Gazastreifen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:13"
+            "date": "Gestern, 20:48"
         }
     ]
 }
