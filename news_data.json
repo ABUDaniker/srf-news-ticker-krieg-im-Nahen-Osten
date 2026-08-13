@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Presse: USA zweifelten an iranischer Bedrohung für Trump",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "7:30"
+        },
+        {
+            "title": "Geplante Hormus-Gebühr: Iran verweist auf Umweltschäden",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "6:06"
+        },
+        {
             "title": "Öl von auf Grund gelaufenem Tanker erreicht Küste von Oman",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 17:53"
-        },
-        {
-            "title": "Medien: Bedrohung durch Rakete Grund für Trumps Täuschung",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 16:32"
-        },
-        {
-            "title": "Iran-USA-Waffenruhe soll verlängert werden",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 13:30"
         }
     ]
 }
