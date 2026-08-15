@@ -3,7 +3,14 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
-            "title": "Tote bei israelischem Luftangriff im Süden Libanons",
+            "title": "Iran bittet Rotes Kreuz um Hilfe bei Freilassung von drei Piloten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:03"
+        },
+        {
+            "title": "Tote bei israelischen Luftangriffen im Süden Libanons",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "2:35"
-        },
-        {
-            "title": "Erneuter Angriff auf Tanker der VAE in der Strasse von Hormus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "2:12"
         }
     ]
 }
