@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Papst: Gewalt gegen Palästinenser im Westjordanland muss aufhören",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:18"
+        },
+        {
+            "title": "Regierungstruppen im Jemen melden 181 Angriffe in 24 Stunden",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:52"
+        },
+        {
             "title": "Iran wirft Katar Behinderung bei Ermittlungen zu Piloten vor",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:14"
-        },
-        {
-            "title": "Israel meldet Tötung von Hisbollah-Kommandant im Südlibanon",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:18"
-        },
-        {
-            "title": "Katar: Halten keine iranischen Piloten fest",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 21:26"
         }
     ]
 }
