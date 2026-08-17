@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Gaza-Fahrplan: Arbeitsgruppen zu Entwaffnung und Wiederaufbau",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:17"
+        },
+        {
             "title": "Bericht: Iran droht mit Eskalation bei Scheitern von Diplomatie",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -10,18 +17,11 @@
             "date": "15:34"
         },
         {
-            "title": "Hormus: Trump droht Oman bei Einmischung mit Bombardierung",
+            "title": "Hormus: Trump droht Oman bei Behinderung mit Bombardierung",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "14:47"
-        },
-        {
-            "title": "Huthi-Rebellen melden Angriff auf saudisches Militärschiff",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:09"
         }
     ]
 }
