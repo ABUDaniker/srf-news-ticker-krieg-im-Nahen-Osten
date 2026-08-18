@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Trump: Karte vom Persischen Golf als «neues US-Territorum»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:13"
+        },
+        {
+            "title": "Saudi Aramco verlädt wieder Öl in der Strasse von Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:35"
+        },
+        {
             "title": "Hamas bekennt sich erneut zu US-Friedensplan für Gaza",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:31"
-        },
-        {
-            "title": "Iran knüpft Öffnung der Strasse von Hormus an Bedingungen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:05"
-        },
-        {
-            "title": "Syrien meldet israelische Luftangriffe auf Militärflugplatz",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:25"
         }
     ]
 }
