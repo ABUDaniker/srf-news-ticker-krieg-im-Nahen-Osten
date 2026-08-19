@@ -3,7 +3,14 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
-            "title": "Nato sieht sich laut Sprecher gegen Bedrohungen gewappnet",
+            "title": "Israelisches Militär leitet Untersuchung zu Toten in Gaza ein",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:07"
+        },
+        {
+            "title": "Nato sieht sich gegen Bedrohungen gewappnet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "8:28"
-        },
-        {
-            "title": "Vereinigten Arabischen Emirate stoppen Handel mit Iran",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "6:16"
         }
     ]
 }
