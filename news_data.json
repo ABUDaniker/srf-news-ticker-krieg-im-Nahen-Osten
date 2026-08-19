@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Nato sieht sich laut Sprecher gegen Bedrohungen gewappnet",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:43"
+        },
+        {
             "title": "Iran dementiert Angriff auf Vereinigte Arabische Emirate",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "6:16"
-        },
-        {
-            "title": "Schiffsverkehr in der Strasse von Hormus verlangsamt sich",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "6:10"
         }
     ]
 }
