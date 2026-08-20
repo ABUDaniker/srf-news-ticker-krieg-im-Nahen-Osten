@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Türkei, Ägypten und Katar verurteilen Israels Angriffe auf Gaza",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:41"
+        },
+        {
             "title": "Netanjahu: Stabilisierungstruppe hat keinen Zugang zu Gaza",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:32"
-        },
-        {
-            "title": "Israel droht Türkei: «Gefährliche Abenteuer» in Syrien",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:46"
         }
     ]
 }
