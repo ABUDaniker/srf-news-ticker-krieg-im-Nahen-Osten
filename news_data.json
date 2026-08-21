@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Libanon: Israel greift strategische Anhöhe im Südlibanon an",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:00"
+        },
+        {
+            "title": "Türkei erlässt internationalen Haftbefehl gegen Netanjahu",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:57"
+        },
+        {
             "title": "Irans Präsident fordert Kriegsende aus Position der Stärke",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:36"
-        },
-        {
-            "title": "Gewalt und Spannungen im besetzten Westjordanland eskalieren",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:56"
-        },
-        {
-            "title": "US-Blockade reduziert iranische Ölangebote nach China",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:13"
         }
     ]
 }
