@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Irans Präsident fordert Kriegsende aus Position der Stärke",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:36"
+        },
+        {
             "title": "Gewalt und Spannungen im besetzten Westjordanland eskalieren",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:13"
-        },
-        {
-            "title": "Iran will Strategien gegen neue US-Sanktionen entwickeln",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "9:52"
         }
     ]
 }
