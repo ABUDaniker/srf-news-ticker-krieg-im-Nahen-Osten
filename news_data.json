@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran kritisiert US-Wirtschaftsdruck als völkerrechtswidrig",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "6:20"
+        },
+        {
+            "title": "Trump sieht Iran nicht bereit für Abkommen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "1:41"
+        },
+        {
             "title": "Libanon: Israel greift strategische Anhöhe im Südlibanon an",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 18:00"
-        },
-        {
-            "title": "Türkei erlässt internationalen Haftbefehl gegen Netanjahu",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 16:57"
-        },
-        {
-            "title": "Irans Präsident fordert Kriegsende aus Position der Stärke",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 13:36"
         }
     ]
 }
