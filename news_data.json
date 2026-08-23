@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Syrien erwartet baldige Sicherheitsgespräche mit Israel",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "11:31"
+        },
+        {
             "title": "Was die Hängepartie im Iran-Krieg für den Ölpreis bedeutet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "0:45"
-        },
-        {
-            "title": "USA leiten 68 Handelsschiffe im Zuge von Iran-Blockade um",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 14:23"
         }
     ]
 }
