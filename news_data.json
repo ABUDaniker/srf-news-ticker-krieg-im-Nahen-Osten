@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran droht Schiffen in Strasse von Hormus mit Beschlagnahmung",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:30"
+        },
+        {
             "title": "US-Finanzminister kündigt «Endphase des Iran-Kriegs» an",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "6:24"
-        },
-        {
-            "title": "Das waren die Ereignisse am letzten Wochenende",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "6:23"
         }
     ]
 }
