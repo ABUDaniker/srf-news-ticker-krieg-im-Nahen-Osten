@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Katars Ministerpräsident reist morgen für Gespräche nach Teheran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:02"
+        },
+        {
             "title": "Irans Militär droht Exil-Medien: «Auf Zielliste aufgenommen»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "10:54"
-        },
-        {
-            "title": "Iran und Oman besprechen wieder Schifffahrtsregeln",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:58"
         }
     ]
 }
