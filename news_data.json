@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Irans Militär droht Exil-Medien: «Auf Zielliste aufgenommen»",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "16:30"
+        },
+        {
             "title": "Hormus-Transitverkehr unter Zehn-Tages-Durchschnitt",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "8:58"
-        },
-        {
-            "title": "USA schicken Diplomaten in Nahost-Missionen zurück",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "3:32"
         }
     ]
 }
