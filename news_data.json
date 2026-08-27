@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Tanker in der Strasse von Hormus von Geschoss getroffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "3:45"
+        },
+        {
             "title": "Katars Ministerpräsident reist morgen für Gespräche nach Teheran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "21:02"
+            "date": "Gestern, 21:02"
         },
         {
             "title": "Irans Militär droht Exil-Medien: «Auf Zielliste aufgenommen»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "16:30"
-        },
-        {
-            "title": "Hormus-Transitverkehr unter Zehn-Tages-Durchschnitt",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:54"
+            "date": "Gestern, 16:30"
         }
     ]
 }
