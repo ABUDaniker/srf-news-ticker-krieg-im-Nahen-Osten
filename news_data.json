@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iranische Angriffe auf Kuwait, Jordanien und Bahrain",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "1:02"
+        },
+        {
             "title": "Iran hat offenbar Angriffe auf US-Stützpunkte begonnen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "21:56"
+            "date": "Gestern, 21:56"
         },
         {
             "title": "Revolutionsgarden: «USA werden neue Angriffe bereuen»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:24"
-        },
-        {
-            "title": "Trump: «Grosse und gewaltige Angriffe» auf Ziele bei Hormus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "20:21"
+            "date": "Gestern, 20:24"
         }
     ]
 }
