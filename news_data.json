@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Oman:  Erneut Tanker in Strasse von Hormus angegriffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "2:20"
+        },
+        {
             "title": "Trump: Werden Iran «hart treffen»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "17:50"
+            "date": "Gestern, 17:50"
         },
         {
             "title": "Iran: Jüngste Angriffe nur «begrenzte Konfrontation»",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "15:35"
-        },
-        {
-            "title": "Bericht: Siedler vertreiben Palästinenser aus ihrem Haus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:01"
+            "date": "Gestern, 15:35"
         }
     ]
 }
