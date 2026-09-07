@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Huthi: Gefängnis bei saudischem Angriff im Jemen getroffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "19:17"
+        },
+        {
+            "title": "Deutschland verteidigt Waffenexporte nach Israel vor dem IGH",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:52"
+        },
+        {
             "title": "Oman rettet laut eigenen Angaben Besatzungsmitglieder von Tanker",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:44"
-        },
-        {
-            "title": "Bericht: Palästinensischer Student von Siedlern erschossen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "12:35"
-        },
-        {
-            "title": "UNO-Menschenrechtskommissar ist besorgt über Situation im Iran",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "11:28"
         }
     ]
 }
