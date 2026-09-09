@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Trump: Krieg endet unmittelbar nach US-Kongresswahlen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "22:05"
+        },
+        {
             "title": "Acht Staaten begrüssen britische Boykott-Politik gegen Israel",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -10,18 +17,11 @@
             "date": "18:56"
         },
         {
-            "title": "UKMTO: Mehrere Schiffe in Golfregion beschossen",
+            "title": "Angriffswelle auf mehrere Tanker in Golfregion",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "16:56"
-        },
-        {
-            "title": "Wegen Engpässen: Irans Präsident schlägt autofreien Tag vor",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:28"
         }
     ]
 }
