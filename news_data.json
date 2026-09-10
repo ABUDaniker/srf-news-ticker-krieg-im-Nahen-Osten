@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran meldet Explosion im Süden des Landes",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:37"
+        },
+        {
             "title": "Trump: Krieg endet unmittelbar nach US-Kongresswahlen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "22:05"
+            "date": "Gestern, 22:05"
         },
         {
             "title": "Acht Staaten begrüssen britische Boykott-Politik gegen Israel",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "18:56"
-        },
-        {
-            "title": "Angriffswelle auf mehrere Tanker in Golfregion",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:56"
+            "date": "Gestern, 18:56"
         }
     ]
 }
