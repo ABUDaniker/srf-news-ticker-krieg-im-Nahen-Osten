@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Huthi-Vormarsch: UNO-Gesandter warnt vor Gefahr für Schifffahrt",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "22:38"
+        },
+        {
+            "title": "Israel: Zerstörung von Hisbollah-Tunnelinfrastruktur im Libanon",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:37"
+        },
+        {
             "title": "Medien: Iran nimmt Produktion ballistischer Raketen wieder auf",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "18:47"
-        },
-        {
-            "title": "Huthi: Schifffahrt in Bab al-Mandab weiterhin sicher",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "17:21"
-        },
-        {
-            "title": "Bericht: Luftangriff in Gaza tötet mehrere Personen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:20"
         }
     ]
 }
