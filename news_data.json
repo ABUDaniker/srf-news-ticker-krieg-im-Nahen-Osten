@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Saudi-Arabien: Ost-West-Pipeline von Drohnen aus Irak angegriffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "22:24"
+        },
+        {
+            "title": "Saudi-Arabien: Ost-West-Ölpipeline unterbrochen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:31"
+        },
+        {
             "title": "Trump verteidigt an 9/11-Gedenkfeier den Iran-Krieg",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "17:15"
-        },
-        {
-            "title": "Irans Vizepräsident gratuliert Huthi-Rebellen zum Vormarsch",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:36"
-        },
-        {
-            "title": "Bericht: Treffen von Iran und Golfstaaten zur Strasse von Hormus",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "15:57"
         }
     ]
 }
