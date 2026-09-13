@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Geplantes Treffen zur Strasse von Hormus verschoben",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "21:17"
+        },
+        {
             "title": "Trump: Könnten im Iran bleiben und das Öl behalten",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "14:37"
-        },
-        {
-            "title": "Treffen in Oman: Abkommen zur Strasse von Hormus geplant",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "14:06"
         }
     ]
 }
