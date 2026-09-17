@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "UNO-Kommission: USA begingen womöglich Kriegsverbrechen im Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:20"
+        },
+        {
             "title": "USA: Rahmen für Verlängerung der Sanktionen gegen den Iran",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 21:52"
-        },
-        {
-            "title": "Opferzahl bei eingestürztem Gebäude in Gaza steigt auf 21",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:28"
         }
     ]
 }
