@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "UNO-Sicherheitsrat verurteilt Huthi-Angriffe auf Saudis",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:48"
+        },
+        {
             "title": "Nato-Befehlshaber berät über US-Truppenpräsenz in Europa",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 21:13"
-        },
-        {
-            "title": "USA genehmigen Verkauf von F-35-Kampfjets an Saudi-Arabien",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 21:10"
         }
     ]
 }
