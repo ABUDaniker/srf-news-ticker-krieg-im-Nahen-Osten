@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Blockierte Strasse von Hormus verzögert LNG-Projekte in Katar",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "19:24"
+        },
+        {
             "title": "Irans Militär droht den USA und deren Verbündeten",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "16:30"
-        },
-        {
-            "title": "Neue Gewalt-Zwischenfälle im Westjordanland",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:17"
         }
     ]
 }
