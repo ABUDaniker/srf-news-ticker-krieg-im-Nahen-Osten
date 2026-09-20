@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran fordert Umsetzung der US-Zusagen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:03"
+        },
+        {
             "title": "Huthi-Miliz: Dutzende Raketen gegen Saudi-Arabien abgefeuert",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 21:25"
-        },
-        {
-            "title": "Iran übermittelt USA Bedingungen für Kriegsende",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 20:22"
         }
     ]
 }
