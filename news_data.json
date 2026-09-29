@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Verhandlungen um ein Kriegsende in Iran",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:41"
+        },
+        {
             "title": "Israel rügt Spanien wegen umstrittener Palästina-Aussage",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "20:24"
+            "date": "Gestern, 20:24"
         },
         {
             "title": "Iranischer Hardliner Hamid Rassai muss ins Gefängnis",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "17:30"
-        },
-        {
-            "title": "Iran weist Verbindung zu Festgenommenen in Fairford zurück",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:21"
+            "date": "Gestern, 17:30"
         }
     ]
 }
