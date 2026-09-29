@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "WHO warnt vor Zusammenbruch des Gesundheitssystems im Jemen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:39"
+        },
+        {
+            "title": "Weiter schwere Gefechte im Jemen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:45"
+        },
+        {
             "title": "Mehr Öltanker passieren trotz Angriffen die Strasse von Hormus",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "13:48"
-        },
-        {
-            "title": "Experte: US-Abzug aus Irak stärkt Irans Einfluss im Iran-Krieg",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:42"
-        },
-        {
-            "title": "Spanien begrenzt Anstieg regulierter Gaspreise",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "13:31"
         }
     ]
 }
