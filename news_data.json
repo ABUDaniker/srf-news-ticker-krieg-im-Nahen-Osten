@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Revolutionsgarden begrüssen US-Truppenabzug aus dem Irak",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:15"
+        },
+        {
+            "title": "Pilot nach Angriff auf Flydubai-Flug in stabilem Zustand",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "8:12"
+        },
+        {
             "title": "Vorfall bei Militärbasis: «Hinweise» auf Iran-Beteiligung",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "Gestern, 19:24"
-        },
-        {
-            "title": "Irans Armee verspricht Preisgeld für getötete US-Soldaten",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 17:48"
-        },
-        {
-            "title": "USA haben Militär im Irak vollständig abgezogen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 16:43"
         }
     ]
 }
