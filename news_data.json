@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Medienberichte: Explosionen in Jemens Hauptstadt",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "0:15"
+        },
+        {
+            "title": "UKMTO: Tanker in der Strasse von Hormus von Geschoss getroffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 22:11"
+        },
+        {
             "title": "Ermittlungen zu Luftwaffenstützpunkt: Mann festgenommen",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "18:49"
-        },
-        {
-            "title": "Iran weist Vorwürfe wegen mutmasslichem Anschlagsplan zurück",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:35"
-        },
-        {
-            "title": "Medien: Palästinenser bei Auseinandersetzung mit Siedlern getötet",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:10"
+            "date": "Gestern, 18:49"
         }
     ]
 }
