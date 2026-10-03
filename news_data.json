@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Demonstrierende in Genf fordern Sanktionen gegen Israel",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:24"
+        },
+        {
             "title": "IEA: Bislang 325 Millionen Barrel Ölreserven freigegeben",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -15,13 +22,6 @@
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "12:33"
-        },
-        {
-            "title": "Tote nach israelischem Luftangriff in Gaza",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:58"
         }
     ]
 }
