@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Von der Leyen kritisiert Angriffe auf zivile Infrastruktur",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:09"
+        },
+        {
+            "title": "Saudi-Arabien: Drei Tote bei Angriffen auf Flughafen in Riad",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "9:57"
+        },
+        {
             "title": "Stabschef Mandon: 2000 französische Soldaten nach Nahost",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "1:29"
-        },
-        {
-            "title": "Trump: Keine Angriffe auf Iran bis zu Midterms im November",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 18:45"
-        },
-        {
-            "title": "Iran: US-Verhandlungsposition wird derzeit geprüft",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 17:06"
         }
     ]
 }
