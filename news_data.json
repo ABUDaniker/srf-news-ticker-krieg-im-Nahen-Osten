@@ -3,6 +3,13 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Weitere pakistanische Armeeangehörigen in Saudi-Arabien",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "17:53"
+        },
+        {
             "title": "Von der Leyen kritisiert Angriffe auf zivile Infrastruktur",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
@@ -10,18 +17,11 @@
             "date": "13:09"
         },
         {
-            "title": "Saudi-Arabien: Drei Tote bei Angriffen auf Flughafen in Riad",
+            "title": "Drei Todesopfer bei Angriffen auf den Flughafen in Riad",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "9:57"
-        },
-        {
-            "title": "Stabschef Mandon: 2000 französische Soldaten nach Nahost",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "1:29"
         }
     ]
 }
