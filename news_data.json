@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Riad: Flughafen bleibt bis sicher Samstag geschlossen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "1:32"
+        },
+        {
+            "title": "Iran attackiert erneut einen Tanker in der Strasse von Hormus",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "Gestern, 17:14"
+        },
+        {
             "title": "EU beschliesst Libanon-Einsatz",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
-            "date": "16:42"
-        },
-        {
-            "title": "Verletzte und Toter in Israel – Wohl Blindgänger explodiert",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "16:10"
-        },
-        {
-            "title": "Saudi-Arabien verlängert Aussetzung des Flugbetriebs in Riad",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:29"
+            "date": "Gestern, 16:42"
         }
     ]
 }
