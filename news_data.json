@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Netanjahu nennt Sturz der iranischen Führung als Ziel",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:25"
+        },
+        {
+            "title": "Tanker vor Oman von Geschoss getroffen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:18"
+        },
+        {
             "title": "Huthis dementieren Angriffe auf Medina und Saudi-Arabien",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "12:39"
-        },
-        {
-            "title": "Iran will bei US-Angriff auf Infrastruktur Unterseekabel kappen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:55"
-        },
-        {
-            "title": "Irans Aussenminister erhält keine Antwort auf Vermittlungsangebot",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "2:33"
         }
     ]
 }
