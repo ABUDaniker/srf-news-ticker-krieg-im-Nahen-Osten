@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Iran: Kein Treffen mit US-Vertretern geplant",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:56"
+        },
+        {
+            "title": "Militäreinsatz im Westjordanland: Bürgermeister warnt vor Folgen",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "13:29"
+        },
+        {
             "title": "Iran droht mit Ausweitung des Krieges",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "11:52"
-        },
-        {
-            "title": "Ägyptischer Aussenminister warnt vor Eskalation",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:53"
-        },
-        {
-            "title": "Saudi-Arabien fängt Drohne ab – keine Verletzten",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "7:41"
         }
     ]
 }
