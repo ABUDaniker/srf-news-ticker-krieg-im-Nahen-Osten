@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Huthis bekennen sich zu Angriff auf Saudi-Arabien",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "15:07"
+        },
+        {
+            "title": "USA planen Arbeitsgruppe zur Blockade iranischer Landrouten",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:13"
+        },
+        {
             "title": "Katz: Israels Mission gegen Iran ist noch nicht beendet",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "12:01"
-        },
-        {
-            "title": "Saudi-Arabien meldet versuchten Angriff auf Energieriesen Aramco",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:52"
-        },
-        {
-            "title": "Iran richtet drei weitere Männer nach Massenprotesten hin",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:35"
         }
     ]
 }
