@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Vier Staaten drängen Israel zu mehr Gaza-Hilfe",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "20:34"
+        },
+        {
+            "title": "Israel hält laut Bericht Vereinbarungen zu Hilfsgütern nicht ein",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "18:16"
+        },
+        {
             "title": "Revolutionsgarden: Zwei Tanker in Strasse von Hormus in Brand",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "14:38"
-        },
-        {
-            "title": "Jemen: Regierungstruppen ziehen sich von Meeresenge zurück",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "10:03"
-        },
-        {
-            "title": "Iran greift Ziele in Bahrain mit Drohnen an",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "8:19"
         }
     ]
 }
