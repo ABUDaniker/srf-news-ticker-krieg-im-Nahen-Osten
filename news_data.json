@@ -3,25 +3,25 @@
     "sourceUrl": "https://www.srf.ch/news/international/nahost-konflikt",
     "articles": [
         {
+            "title": "Drei Verletzte bei neuem Siedlerangriff im Westjordanland",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "14:31"
+        },
+        {
+            "title": "Revolutionsgarden: Zwei Tanker in Strasse von Hormus explodiert",
+            "lead": "",
+            "url": "https://www.srf.ch/news/international/nahost-konflikt",
+            "imageUrl": "",
+            "date": "10:33"
+        },
+        {
             "title": "Ärzte ohne Grenzen meldet den Tod von zwei Mitarbeitern",
             "lead": "",
             "url": "https://www.srf.ch/news/international/nahost-konflikt",
             "imageUrl": "",
             "date": "1:59"
-        },
-        {
-            "title": "US-Militär: Haben Handelsschiff im Golf von Oman angegriffen",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 19:05"
-        },
-        {
-            "title": "Eisenkot: Koalitionsgespräche mit Likud kommen nicht voran",
-            "lead": "",
-            "url": "https://www.srf.ch/news/international/nahost-konflikt",
-            "imageUrl": "",
-            "date": "Gestern, 18:08"
         }
     ]
 }
